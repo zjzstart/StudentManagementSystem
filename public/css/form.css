@@ -1,0 +1,29 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+form{
+  width: 300px;
+  margin: 20px auto;
+}
+
+form > fieldset{
+  padding: 10px;
+}
+form > fieldset > input{
+  width: 100%;
+  height: 40px;
+  /* line-height: 40px; */
+  margin: 10px 0;
+  /* border：none; */
+  border:1px solid #ccc;  /*去除阴影*/
+  border-radius: 4px;     /*圆角*/
+  font-size: 16px;
+  padding-left: 5px;
+  box-sizing: border-box;
+}
+
+#_gender{
+  height: 10px;
+}
